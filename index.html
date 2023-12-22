@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt_PT">
+<head>
+    <title>API JSON</title>
+</head>
+<body>
+<h2>Voo para ilha do sal: <b id="salRP"></b></h2>
+<h2>Alojamento no RP: <i id="salRPAloj"></i></h2>
+<h2>Outro preço</h2><h3 id="preco3"></h3>
+
+<script>
+    //chamada ao ficheiro json
+    fetch("api.json")
+    .then(Response => Response.json())
+    .then(ferias => {
+        document.getElementById("salRP").innerHTML = ferias["voos"]["0"]["preço"];
+        document.getElementById("salRPAloj").innerHTML = ferias["Hotel"]["1"]["preço"];
+        document.getElementById("preco3").innerHTML = ferias["Hotel"]["0"]["preço"];
+    });
+    
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+"voos":[
+        {"cabo_verde":"ilha_sal", "preço":"850€"},
+        {"cabo_verde":"Santa_Maria", "preço":"500€"}
+        ],
+"Hotel":[
+        {"cabo_verde":"ilha_sal_RVG", "preço":"25€"},
+        {"cabo_verde":"ilha_sal_RP", "preço":"35€"},
+        {"cabo_verde":"Santa_Maria_RX", "preço":"55€"},
+        {"cabo_verde":"Santa_Maria_Rz", "preço":"60€"}
+        ]
+}
